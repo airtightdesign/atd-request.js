@@ -1,0 +1,32 @@
+{
+  "name": "atd-request",
+  "version": "1.0.0",
+  "description": "Simple XHR wrapper with Promises",
+  "main": "./dist/js/request.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airtightdesign/atd-request.js.git"
+  },
+  "keywords": [
+    "frontend",
+    "xhr",
+    "ajax"
+  ],
+  "author": "John Grahan <john@airtightdesign.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airtightdesign/atd-request.js/issues"
+  },
+  "homepage": "https://github.com/airtightdesign/atd-request.js#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {}
+}
