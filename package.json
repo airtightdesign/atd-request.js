@@ -1,6 +1,6 @@
 {
   "name": "atd-request",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple XHR wrapper with Promises",
   "main": "./dist/js/request.js",
   "scripts": {

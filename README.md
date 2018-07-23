@@ -44,4 +44,4 @@ Request.delete(url, data, headers).then(response => {
 
 ### Deprecated Browsers
 
-This module requires `Promise`, `Object.keys`, and `Array.forEach` to function. Older browsers may require these to be polyfilled.
+This module requires `Promise`, `Object.keys`, `Object.assign`, and `Array.forEach` to function. Older browsers may require these to be polyfilled.

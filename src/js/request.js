@@ -21,6 +21,7 @@ class Request {
                 'Content-type': 'application/json; charset=utf-8',
                 'Cache-Control': 'no-cache'
             };
+            headers = Object.assign(headers, optionalHeaders);
 
             let req = new XMLHttpRequest();
             req.open(method, url, true);
