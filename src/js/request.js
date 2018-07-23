@@ -41,7 +41,7 @@ class Request {
                     }
                 }
                 catch(e) {
-                    console.log(`Caught Exception: ${e.description}`);
+                    reject(e);
                 }
             }
 
