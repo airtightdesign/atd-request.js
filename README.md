@@ -13,27 +13,27 @@
 ```
 import Request from 'atd-request.js';
 
-Request.get(url, headers).then((data) => {
-    //process data;
+Request.get(url, headers).then(response => {
+    //process response;
 });
 
-Request.post(url, data, headers).then((data) => {
-    //process data;
+Request.post(url, data, headers).then(response => {
+    //process response;
 });
 
-Request.update(url, data, headers).then((data) => {
-    //process data;
+Request.update(url, data, headers).then(response => {
+    //process response;
 });
 
-Request.delete(url, data, headers).then((data) => {
-    //process data;
+Request.delete(url, data, headers).then(response => {
+    //process response;
 });
 
 ```
 
-`url` is the url for the request.
-`data` is the data sent to the server with the request
-`headers` is an object with a key/value pair for each request header. The keys are the header name and the value is the header content. These headers are sent by default (but can be overridden): 
+- `url` is the url for the request.
+- `data` is the data sent to the server with the request
+- `headers` is an object with a key/value pair for each request header. The keys are the header name and the value is the header content. These headers are sent by default (but can be overridden): 
 
 ```
 {
@@ -41,3 +41,7 @@ Request.delete(url, data, headers).then((data) => {
     'Cache-Control': 'no-cache'
 }
 ```
+
+### Deprecated Browsers
+
+This module requires `Promise`, `Object.keys`, and `Array.forEach` to function. Older browsers may require these to be polyfilled.
